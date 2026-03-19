@@ -58,9 +58,7 @@ Access to the gateway and model configured in utils/client.py, including a valid
    - pip install -r requirements.txt
 
 3. Create a .env file in the project root with the following information
-   - base_url
-   - api_version
-   - access_token
+   - OPENAI_API_KEY
    
 4. Running in bash
    - bash run.sh
