@@ -1,9 +1,9 @@
-Ask and Speak - README
-Overview
+# Ask and Speak - README
+## Overview
 
 Ask and Speak is a simple Gradio web app that answers your question with OpenAI Chat Completions, then speaks the answer using Text-to-Speech. You can choose chat and TTS models, voice, and audio format. The app maintains an in-memory chat history per session and plays the generated audio automatically.
 
-Key Components
+## Key Components
 
 main.py: Builds the Gradio UI, handles chat + TTS, and manages session history.
 utils/client.py: Provides get_client to initialize the OpenAI Python client using environment variables.
@@ -11,17 +11,23 @@ run.sh: Convenience script for launching the app.
 requirements.txt: Python dependencies.
 README.md: Project documentation.
 
-Project Structure
+## Project Structure
 
 audio_chatbot/
+
 ├─ main.py
+
 ├─ requirements.txt
+
 ├─ README.md
+
 ├─ run.sh
+
 └─ utils/
+
    ├─ client.py
    
-How It Works:
+## How It Works:
 
 Compose messages
 The app builds a messages list with a system prompt, prior history, and your latest question.
@@ -47,11 +53,11 @@ Audio format: Choose "wav", "mp3", or "ogg".
 System prompt: Customize assistant behavior.
 Share link: The app launches with share=True to provide a public Gradio link.
    
-Prerequisites
+## Prerequisites
 Python 3.11+
 An OpenAI API key
    
-Setup
+## Setup
 Clone the repository
 
 Clone this repo into your working directory.
