@@ -59,7 +59,7 @@ audio_chatbot/
    - pip install -r requirements.txt
 
 3. Create a .env file in the project root with the following information
-   - OPENAI_API_TOKEN
+   - OPENAI_API_KEY
    
 4. Running in bash
    - bash run.sh
