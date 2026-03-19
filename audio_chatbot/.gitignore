@@ -1,0 +1,16 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local secrets
+.env
+
+# Gradio local state
+.gradio/
+
+# OS junk
+.DS_Store
+Thumbs.db
