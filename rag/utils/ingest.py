@@ -24,7 +24,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 PDF_DIR = REPO_ROOT / "files_pdf"
 MD_DIR = REPO_ROOT / "files_md"
 DB_NAME = str(REPO_ROOT / "vector_db")
-KNOWLEDGE_BASE = str(MD_DIR)
 
 # Model and embeddings
 load_dotenv(override=True)
